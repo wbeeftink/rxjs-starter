@@ -1,0 +1,23 @@
+{
+	"name": "rxjs-starter",
+	"version": "1.0.0",
+	"description": "RxJS starter",
+	"main": "src/index.ts",
+	"scripts": {
+		"start": "webpack-dev-server"
+	},
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"rxjs-tslint": "^0.1.7",
+		"ts-loader": "^6.2.2",
+		"tslint": "^6.1.0",
+		"typescript": "^3.8.3",
+		"webpack": "^4.42.1",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.10.3"
+	},
+	"dependencies": {
+		"rxjs": "^6.5.4"
+	}
+}

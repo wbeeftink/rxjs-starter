@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"allowJs": false,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"noImplicitAny": true,
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"target": "ESNext"
+	}
+}
