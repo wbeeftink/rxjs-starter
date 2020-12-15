@@ -3,7 +3,7 @@
 This is a somewhat opinionated starter for RxJS. It includes:
 
 - TypeScript
-- webpack-dev-server
+- Webpack
 
 ## Getting started
 
