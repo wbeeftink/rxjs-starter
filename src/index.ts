@@ -1,5 +1,3 @@
-// tslint:disable: no-console
-
 import { from } from "rxjs";
 import { map } from "rxjs/operators";
 
