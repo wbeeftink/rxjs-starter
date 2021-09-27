@@ -3,8 +3,11 @@ const path = require("path");
 module.exports = {
 	mode: "development",
 	devtool: "source-map",
+	entry: "./src/index.ts",
 	devServer: {
-		publicPath: "/dist/",
+		static: {
+			directory: "./dist",
+		},
 	},
 	module: {
 		rules: [
@@ -16,5 +19,11 @@ module.exports = {
 	},
 	resolve: {
 		extensions: [".tsx", ".ts", ".js"],
+	},
+	output: {
+		filename: "bundle.js",
+		path: path.resolve(__dirname, "dist"),
+		clean: true,
+		publicPath: "/",
 	},
 };

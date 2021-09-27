@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"allowJs": false,
 		"module": "ESNext",
-		"moduleResolution": "Node",
+		"moduleResolution": "node",
 		"noImplicitAny": true,
 		"outDir": "./dist/",
 		"sourceMap": true,
